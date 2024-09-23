@@ -1,10 +1,9 @@
-# web2general
- Web 2
+Software_testing
 
 Members:
--Lê Đức Nam 
--Lê Trọng Nhân
+-Lê Đức Nam
+-Tiêu Quang Phú
+-Nguyễn Văn Ngàn
 -Phạm Thanh Vương
-
 
 
