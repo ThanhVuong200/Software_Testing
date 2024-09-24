@@ -57,13 +57,6 @@ session_start();
                         <div class="single-product-descirption">
                             <h2 name="m"><?php echo $resultProd['tenSanPham']; ?></h2>
                             <div class="single-product-review-box">
-                                <div class="rating-box">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-half-empty"></i>
-                                </div>
                             </div>
                             <div class="single-product-price">
                                 <h2><?php echo number_format($resultProd['giaSanPham']); ?> VNĐ</h2>
