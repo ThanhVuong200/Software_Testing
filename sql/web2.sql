@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th5 17, 2023 lúc 03:50 PM
--- Phiên bản máy phục vụ: 10.4.28-MariaDB
--- Phiên bản PHP: 8.2.4
+-- Host: 127.0.0.1
+-- Generation Time: Sep 24, 2024 at 01:21 PM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `web2`
+-- Database: `web2`
 --
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `tbl_chitietdonhang`
+-- Table structure for table `tbl_chitietdonhang`
 --
 
 CREATE TABLE `tbl_chitietdonhang` (
@@ -44,7 +44,7 @@ CREATE TABLE `tbl_chitietdonhang` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `tbl_chitietdonhang`
+-- Dumping data for table `tbl_chitietdonhang`
 --
 
 INSERT INTO `tbl_chitietdonhang` (`IDCTDH`, `maDonHang`, `tenNguoiNhan`, `sdtKH`, `ghiChuCuaKhachhang`, `maSanPham`, `tenSanPham`, `soLuongSP`, `sizeSanPham`, `giaSanPham`, `mieuTaSP`, `hinhAnhSP`, `diachi`) VALUES
@@ -54,7 +54,7 @@ INSERT INTO `tbl_chitietdonhang` (`IDCTDH`, `maDonHang`, `tenNguoiNhan`, `sdtKH`
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `tbl_chitiethoadon`
+-- Table structure for table `tbl_chitiethoadon`
 --
 
 CREATE TABLE `tbl_chitiethoadon` (
@@ -74,7 +74,7 @@ CREATE TABLE `tbl_chitiethoadon` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `tbl_chitiethoadon`
+-- Dumping data for table `tbl_chitiethoadon`
 --
 
 INSERT INTO `tbl_chitiethoadon` (`idHD`, `maHoaDon`, `tenNguoiNhan`, `sdtKH`, `ghiChu`, `maSP`, `tenSP`, `soLuongSP`, `sizeSP`, `giaSP`, `mieuTaSP`, `hinhAnhSP`, `diachi`) VALUES
@@ -83,7 +83,7 @@ INSERT INTO `tbl_chitiethoadon` (`idHD`, `maHoaDon`, `tenNguoiNhan`, `sdtKH`, `g
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `tbl_donhang`
+-- Table structure for table `tbl_donhang`
 --
 
 CREATE TABLE `tbl_donhang` (
@@ -95,7 +95,7 @@ CREATE TABLE `tbl_donhang` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `tbl_donhang`
+-- Dumping data for table `tbl_donhang`
 --
 
 INSERT INTO `tbl_donhang` (`maDonHang`, `maKhachHang`, `ngayLapDH`, `tongTienDH`, `trangThaiDH`) VALUES
@@ -105,7 +105,7 @@ INSERT INTO `tbl_donhang` (`maDonHang`, `maKhachHang`, `ngayLapDH`, `tongTienDH`
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `tbl_giohang`
+-- Table structure for table `tbl_giohang`
 --
 
 CREATE TABLE `tbl_giohang` (
@@ -124,7 +124,7 @@ CREATE TABLE `tbl_giohang` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `tbl_hoadon`
+-- Table structure for table `tbl_hoadon`
 --
 
 CREATE TABLE `tbl_hoadon` (
@@ -135,7 +135,7 @@ CREATE TABLE `tbl_hoadon` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `tbl_hoadon`
+-- Dumping data for table `tbl_hoadon`
 --
 
 INSERT INTO `tbl_hoadon` (`maHoaDon`, `maKhachHang`, `ngayDat`, `giaTriHD`) VALUES
@@ -144,7 +144,7 @@ INSERT INTO `tbl_hoadon` (`maHoaDon`, `maKhachHang`, `ngayDat`, `giaTriHD`) VALU
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `tbl_khachhang`
+-- Table structure for table `tbl_khachhang`
 --
 
 CREATE TABLE `tbl_khachhang` (
@@ -158,7 +158,7 @@ CREATE TABLE `tbl_khachhang` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `tbl_khachhang`
+-- Dumping data for table `tbl_khachhang`
 --
 
 INSERT INTO `tbl_khachhang` (`maKhachHang`, `tenDangNhap`, `matKhau`, `hoTenKhachHang`, `thuDienTuKH`, `trangThai`, `ngaySinh`) VALUES
@@ -173,7 +173,7 @@ INSERT INTO `tbl_khachhang` (`maKhachHang`, `tenDangNhap`, `matKhau`, `hoTenKhac
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `tbl_loaisanpham`
+-- Table structure for table `tbl_loaisanpham`
 --
 
 CREATE TABLE `tbl_loaisanpham` (
@@ -182,7 +182,7 @@ CREATE TABLE `tbl_loaisanpham` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `tbl_loaisanpham`
+-- Dumping data for table `tbl_loaisanpham`
 --
 
 INSERT INTO `tbl_loaisanpham` (`maLoai`, `tenLoai`) VALUES
@@ -193,7 +193,7 @@ INSERT INTO `tbl_loaisanpham` (`maLoai`, `tenLoai`) VALUES
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `tbl_quantri`
+-- Table structure for table `tbl_quantri`
 --
 
 CREATE TABLE `tbl_quantri` (
@@ -206,17 +206,17 @@ CREATE TABLE `tbl_quantri` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `tbl_quantri`
+-- Dumping data for table `tbl_quantri`
 --
 
 INSERT INTO `tbl_quantri` (`tenDangNhap`, `matKhau`, `tenNguoiQuanTri`, `thuDienTuQT`, `trangThai`, `maVaiTro`) VALUES
 ('admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', 'admin@gmail.com', 'Active', 1),
-('nhancktv123', 'e10adc3949ba59abbe56e057f20f883e', 'Lê Trọng Nhân', 'letrongnhan@gmail.com', 'Active', 1);
+('Vuong', '2d2c09b0f1a0edbdf3f6b8512e78eb23', 'Admin', 'Vuong@gmail.com', 'Active', 1);
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `tbl_sanpham`
+-- Table structure for table `tbl_sanpham`
 --
 
 CREATE TABLE `tbl_sanpham` (
@@ -232,7 +232,7 @@ CREATE TABLE `tbl_sanpham` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `tbl_sanpham`
+-- Dumping data for table `tbl_sanpham`
 --
 
 INSERT INTO `tbl_sanpham` (`maSanPham`, `maLoai`, `tenSanPham`, `sizeSanPham`, `soLuongSanPham`, `mieuTaSanPham`, `giaSanPham`, `trangThaiSanPham`, `hinhAnhSanPham`) VALUES
@@ -299,7 +299,7 @@ INSERT INTO `tbl_sanpham` (`maSanPham`, `maLoai`, `tenSanPham`, `sizeSanPham`, `
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `tbl_thongtingiaohang1`
+-- Table structure for table `tbl_thongtingiaohang1`
 --
 
 CREATE TABLE `tbl_thongtingiaohang1` (
@@ -313,7 +313,7 @@ CREATE TABLE `tbl_thongtingiaohang1` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `tbl_thongtingiaohang1`
+-- Dumping data for table `tbl_thongtingiaohang1`
 --
 
 INSERT INTO `tbl_thongtingiaohang1` (`IDTTGH`, `maKhachHang`, `tenNguoiNhan`, `soDienThoai`, `ghiChuKH`, `sessionID`, `diachi`) VALUES
@@ -334,7 +334,7 @@ INSERT INTO `tbl_thongtingiaohang1` (`IDTTGH`, `maKhachHang`, `tenNguoiNhan`, `s
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `tbl_vaitro`
+-- Table structure for table `tbl_vaitro`
 --
 
 CREATE TABLE `tbl_vaitro` (
@@ -343,7 +343,7 @@ CREATE TABLE `tbl_vaitro` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `tbl_vaitro`
+-- Dumping data for table `tbl_vaitro`
 --
 
 INSERT INTO `tbl_vaitro` (`maVaiTro`, `tenVaiTro`) VALUES
@@ -351,63 +351,63 @@ INSERT INTO `tbl_vaitro` (`maVaiTro`, `tenVaiTro`) VALUES
 (2, 'manager');
 
 --
--- Chỉ mục cho các bảng đã đổ
+-- Indexes for dumped tables
 --
 
 --
--- Chỉ mục cho bảng `tbl_chitietdonhang`
+-- Indexes for table `tbl_chitietdonhang`
 --
 ALTER TABLE `tbl_chitietdonhang`
   ADD PRIMARY KEY (`IDCTDH`);
 
 --
--- Chỉ mục cho bảng `tbl_chitiethoadon`
+-- Indexes for table `tbl_chitiethoadon`
 --
 ALTER TABLE `tbl_chitiethoadon`
   ADD PRIMARY KEY (`idHD`),
   ADD KEY `maHoaDon` (`maHoaDon`);
 
 --
--- Chỉ mục cho bảng `tbl_donhang`
+-- Indexes for table `tbl_donhang`
 --
 ALTER TABLE `tbl_donhang`
   ADD PRIMARY KEY (`maDonHang`),
   ADD KEY `maKhachHang` (`maKhachHang`);
 
 --
--- Chỉ mục cho bảng `tbl_giohang`
+-- Indexes for table `tbl_giohang`
 --
 ALTER TABLE `tbl_giohang`
   ADD PRIMARY KEY (`id_giohang`),
   ADD KEY `maSanPham` (`maSanPham`);
 
 --
--- Chỉ mục cho bảng `tbl_hoadon`
+-- Indexes for table `tbl_hoadon`
 --
 ALTER TABLE `tbl_hoadon`
   ADD PRIMARY KEY (`maHoaDon`),
   ADD KEY `maKhachHang` (`maKhachHang`);
 
 --
--- Chỉ mục cho bảng `tbl_khachhang`
+-- Indexes for table `tbl_khachhang`
 --
 ALTER TABLE `tbl_khachhang`
   ADD PRIMARY KEY (`maKhachHang`);
 
 --
--- Chỉ mục cho bảng `tbl_loaisanpham`
+-- Indexes for table `tbl_loaisanpham`
 --
 ALTER TABLE `tbl_loaisanpham`
   ADD PRIMARY KEY (`maLoai`);
 
 --
--- Chỉ mục cho bảng `tbl_quantri`
+-- Indexes for table `tbl_quantri`
 --
 ALTER TABLE `tbl_quantri`
   ADD PRIMARY KEY (`tenDangNhap`);
 
 --
--- Chỉ mục cho bảng `tbl_sanpham`
+-- Indexes for table `tbl_sanpham`
 --
 ALTER TABLE `tbl_sanpham`
   ADD PRIMARY KEY (`maSanPham`),
@@ -416,87 +416,87 @@ ALTER TABLE `tbl_sanpham`
   ADD KEY `maSanPham_3` (`maSanPham`);
 
 --
--- Chỉ mục cho bảng `tbl_thongtingiaohang1`
+-- Indexes for table `tbl_thongtingiaohang1`
 --
 ALTER TABLE `tbl_thongtingiaohang1`
   ADD PRIMARY KEY (`IDTTGH`);
 
 --
--- Chỉ mục cho bảng `tbl_vaitro`
+-- Indexes for table `tbl_vaitro`
 --
 ALTER TABLE `tbl_vaitro`
   ADD PRIMARY KEY (`maVaiTro`);
 
 --
--- AUTO_INCREMENT cho các bảng đã đổ
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT cho bảng `tbl_chitietdonhang`
+-- AUTO_INCREMENT for table `tbl_chitietdonhang`
 --
 ALTER TABLE `tbl_chitietdonhang`
   MODIFY `IDCTDH` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=105;
 
 --
--- AUTO_INCREMENT cho bảng `tbl_chitiethoadon`
+-- AUTO_INCREMENT for table `tbl_chitiethoadon`
 --
 ALTER TABLE `tbl_chitiethoadon`
   MODIFY `idHD` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
 
 --
--- AUTO_INCREMENT cho bảng `tbl_donhang`
+-- AUTO_INCREMENT for table `tbl_donhang`
 --
 ALTER TABLE `tbl_donhang`
   MODIFY `maDonHang` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
--- AUTO_INCREMENT cho bảng `tbl_giohang`
+-- AUTO_INCREMENT for table `tbl_giohang`
 --
 ALTER TABLE `tbl_giohang`
   MODIFY `id_giohang` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=379;
 
 --
--- AUTO_INCREMENT cho bảng `tbl_hoadon`
+-- AUTO_INCREMENT for table `tbl_hoadon`
 --
 ALTER TABLE `tbl_hoadon`
   MODIFY `maHoaDon` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
 
 --
--- AUTO_INCREMENT cho bảng `tbl_khachhang`
+-- AUTO_INCREMENT for table `tbl_khachhang`
 --
 ALTER TABLE `tbl_khachhang`
   MODIFY `maKhachHang` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
--- AUTO_INCREMENT cho bảng `tbl_loaisanpham`
+-- AUTO_INCREMENT for table `tbl_loaisanpham`
 --
 ALTER TABLE `tbl_loaisanpham`
   MODIFY `maLoai` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
--- AUTO_INCREMENT cho bảng `tbl_sanpham`
+-- AUTO_INCREMENT for table `tbl_sanpham`
 --
 ALTER TABLE `tbl_sanpham`
   MODIFY `maSanPham` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=153;
 
 --
--- AUTO_INCREMENT cho bảng `tbl_thongtingiaohang1`
+-- AUTO_INCREMENT for table `tbl_thongtingiaohang1`
 --
 ALTER TABLE `tbl_thongtingiaohang1`
   MODIFY `IDTTGH` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=100;
 
 --
--- AUTO_INCREMENT cho bảng `tbl_vaitro`
+-- AUTO_INCREMENT for table `tbl_vaitro`
 --
 ALTER TABLE `tbl_vaitro`
   MODIFY `maVaiTro` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- Các ràng buộc cho các bảng đã đổ
+-- Constraints for dumped tables
 --
 
 --
--- Các ràng buộc cho bảng `tbl_donhang`
+-- Constraints for table `tbl_donhang`
 --
 ALTER TABLE `tbl_donhang`
   ADD CONSTRAINT `tbl_donhang_ibfk_1` FOREIGN KEY (`maKhachHang`) REFERENCES `tbl_khachhang` (`maKhachHang`);
