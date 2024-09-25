@@ -1,7 +1,7 @@
 
 		
 		<!-- FOOTER-TOP-AREA START -->
-		<section class="footer-top-area">
+		<section class="footer-top-area" >
 			<div class="container">
 				<div class="footer-top-container">
 					<div class="row">
@@ -11,7 +11,7 @@
 				
 								<!-- FLLOW-US-AREA START -->
 								<div class="fllow-us-area">
-									<h2>Giờ mở cửa: 9h - 21h</h2>
+									<h2>Giờ mở cửa: 7h - 21h</h2>
 								</div>
 								<!-- FLLOW-US-AREA END -->
 							</div>
@@ -47,7 +47,7 @@
 														<i class="fa fa-phone"></i>
 													</div>
 													<div class="info-text call-lh">
-														<p>HOTLINE : 0999777666</p>
+														<p>HOTLINE : 0123456789</p>
 													</div>
 												</li>
 												<li>

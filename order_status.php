@@ -92,9 +92,10 @@ session_start();
 			</div>
 		</section>
 		<!-- MAIN-CONTENT-SECTION END -->
-<?php
-	include 'footer.php';
-?>
+<div style="margin-top: 90px;">
+    <?php include 'footer.php'; ?>
+</div>
+
 		<!-- JS 
 		===============================================-->
 

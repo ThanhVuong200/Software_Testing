@@ -9,7 +9,7 @@ session_start();
 	//include 'add_cart.php';
 ?>
 <!-- MAIN-CONTENT-SECTION START -->
-<section class="main-content-section">
+<section class="main-content-section" >
     <div class="container">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" 
 		style="margin: 20px;">
@@ -242,9 +242,11 @@ session_start();
         </div>
 </section>
 <!-- MAIN-CONTENT-SECTION END -->
-<?php
-	include 'footer.php';
-?>
+
+<div style="margin-top: 230px;">
+    <?php include 'footer.php'; ?>
+</div>
+
 <!--===============================================-->
 <!-- jquery js -->
 <script src="js/vendor/jquery-1.11.3.min.js"></script>

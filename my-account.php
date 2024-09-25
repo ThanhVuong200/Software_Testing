@@ -64,9 +64,10 @@ session_start();
 			</div>
 		</section>
 		
-<?php
-	include 'footer.php';
-?>
+<div style="margin-top: 75px;">
+    <?php include 'footer.php'; ?>
+</div>
+
 		<!-- JS 
 		===============================================-->
 		<!-- jquery js -->

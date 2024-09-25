@@ -41,13 +41,6 @@
 											</div>
 											<div class="product-info">
 												<div class="customar-comments-box">
-													<div class="rating-box">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div>
 												</div>
 												<a href="single-product.php?maSanPham=<?php echo $resultProd['maSanPham']; ?>"><span style="text-transform: uppercase;"><?php echo $resultProd['tenSanPham']; ?></span></a>
 												<div class="price-box">
