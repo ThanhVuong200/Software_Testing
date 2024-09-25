@@ -1,11 +1,9 @@
--- Software
--- testing
 -- phpMyAdmin SQL Dump
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 24, 2024 at 01:21 PM
+-- Generation Time: Sep 24, 2024 at 06:47 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -51,7 +49,10 @@ CREATE TABLE `tbl_chitietdonhang` (
 
 INSERT INTO `tbl_chitietdonhang` (`IDCTDH`, `maDonHang`, `tenNguoiNhan`, `sdtKH`, `ghiChuCuaKhachhang`, `maSanPham`, `tenSanPham`, `soLuongSP`, `sizeSanPham`, `giaSanPham`, `mieuTaSP`, `hinhAnhSP`, `diachi`) VALUES
 (1, 1, 'Nhân', 359107774, 'ko co j', 5, 'Dép nam MWC - 7600 Dép Kẹp Nam Đế Đúc Nguyên Khối ', 1, 42, 175000, 'Dép thiết kế đơn giản với quai kẹp ôm chân,được sản xuất trên thiết bị và kỹ thuật công nghệ cao,kiểu dáng basic, phối sọc thể thao thời trang.\r\n\r\nDép có độ dày quai vừa phải, chất liệu da PU cao cấp giúp đôi dép chắc chắn hơ', '1684033843.jpg', '402 an duong vuong phuong 3 quan 5'),
-(104, 2, 'Nhân', 359107774, '', 1, 'Dép nam MWC - 7766 Dép Kẹp Nam', 2, 38, 150000, 'Dép thiết kế đơn giản với quai kẹp ôm chân,được sản xuất trên thiết bị và kỹ thuật công nghệ cao quai dập vân nổi cách điệu.', '1684034795.jpg', 'trên trời ');
+(104, 2, 'Nhân', 359107774, '', 1, 'Dép nam MWC - 7766 Dép Kẹp Nam', 2, 38, 150000, 'Dép thiết kế đơn giản với quai kẹp ôm chân,được sản xuất trên thiết bị và kỹ thuật công nghệ cao quai dập vân nổi cách điệu.', '1684034795.jpg', 'trên trời '),
+(105, 3, '123', 2147483647, '231`31131313213213', 2, 'Dép nam MWC - 7567 Dép Kẹp Nam Đế Đúc Nguyên Khối', 7, 40, 179000, 'Dép thiết kế đơn giản với quai kẹp ôm chân,được sản xuất trên thiết bị và kỹ thuật công nghệ cao kiểu dáng basic..\r\n\r\nDép sử dụng chất liệu cao cấp tạo cảm giác thoải mái cho bạn trong suốt quá trình vận động.', '1684033248.jpg', '123'),
+(106, 4, '3213213', 3213213, '32132132132', 0, 'Dép nam MWC NADE- 7797 Dép Nam Quai Ngang Phối Chữ Phản Quang', 1, 41, 175000, 'Dép được thiết kế với quai ngang là cao su dẻo ,in chữ phản quang thời trang và năng động.', '1684035255.jpg', '23213213'),
+(107, 5, '312321321', 321321321, '321321321', 0, 'Dép nam MWC NADE- 7797 Dép Nam Quai Ngang Phối Chữ Phản Quang', 1, 41, 175000, 'Dép được thiết kế với quai ngang là cao su dẻo ,in chữ phản quang thời trang và năng động.', '1684035255.jpg', '1231321321');
 
 -- --------------------------------------------------------
 
@@ -80,7 +81,9 @@ CREATE TABLE `tbl_chitiethoadon` (
 --
 
 INSERT INTO `tbl_chitiethoadon` (`idHD`, `maHoaDon`, `tenNguoiNhan`, `sdtKH`, `ghiChu`, `maSP`, `tenSP`, `soLuongSP`, `sizeSP`, `giaSP`, `mieuTaSP`, `hinhAnhSP`, `diachi`) VALUES
-(1, 1, 'Nhân', 359107774, 'ko co j', 5, 'Dép nam MWC - 7600 Dép Kẹp Nam Đế Đúc Nguyên Khối ', 1, 42, 175000, 'Dép thiết kế đơn giản với quai kẹp ôm chân,được sản xuất trên thiết bị và kỹ thuật công nghệ cao,kiểu dáng basic, phối sọc thể thao thời trang.\r\n\r\nDép có độ dày quai vừa phải, chất liệu da PU cao cấp giúp đôi dép chắc chắn hơ', '1684033843.jpg', '402 an duong vuong phuong 3 quan 5');
+(1, 1, 'Nhân', 359107774, 'ko co j', 5, 'Dép nam MWC - 7600 Dép Kẹp Nam Đế Đúc Nguyên Khối ', 1, 42, 175000, 'Dép thiết kế đơn giản với quai kẹp ôm chân,được sản xuất trên thiết bị và kỹ thuật công nghệ cao,kiểu dáng basic, phối sọc thể thao thời trang.\r\n\r\nDép có độ dày quai vừa phải, chất liệu da PU cao cấp giúp đôi dép chắc chắn hơ', '1684033843.jpg', '402 an duong vuong phuong 3 quan 5'),
+(77, 48, 'Nhân', 359107774, '', 1, 'Dép nam MWC - 7766 Dép Kẹp Nam', 2, 38, 150000, 'Dép thiết kế đơn giản với quai kẹp ôm chân,được sản xuất trên thiết bị và kỹ thuật công nghệ cao quai dập vân nổi cách điệu.', '1684034795.jpg', 'trên trời '),
+(78, 49, '123', 2147483647, '231`31131313213213', 2, 'Dép nam MWC - 7567 Dép Kẹp Nam Đế Đúc Nguyên Khối', 7, 40, 179000, 'Dép thiết kế đơn giản với quai kẹp ôm chân,được sản xuất trên thiết bị và kỹ thuật công nghệ cao kiểu dáng basic..\r\n\r\nDép sử dụng chất liệu cao cấp tạo cảm giác thoải mái cho bạn trong suốt quá trình vận động.', '1684033248.jpg', '123');
 
 -- --------------------------------------------------------
 
@@ -102,7 +105,10 @@ CREATE TABLE `tbl_donhang` (
 
 INSERT INTO `tbl_donhang` (`maDonHang`, `maKhachHang`, `ngayLapDH`, `tongTienDH`, `trangThaiDH`) VALUES
 (1, 26, '2023-05-17', 175000, 'Đã hoàn thành'),
-(2, 26, '2023-05-17', 300000, 'Chưa giao');
+(2, 26, '2023-05-17', 300000, 'Đã hoàn thành'),
+(3, 28, '2024-09-24', 1253000, 'Đã hoàn thành'),
+(4, 29, '2024-09-24', 175000, 'Chưa giao'),
+(5, 29, '2024-09-24', 175000, 'Chưa giao');
 
 -- --------------------------------------------------------
 
@@ -141,7 +147,9 @@ CREATE TABLE `tbl_hoadon` (
 --
 
 INSERT INTO `tbl_hoadon` (`maHoaDon`, `maKhachHang`, `ngayDat`, `giaTriHD`) VALUES
-(47, 26, '2023-05-17', 175000);
+(47, 26, '2023-05-17', 175000),
+(48, 26, '2024-09-24', 300000),
+(49, 28, '2024-09-24', 1253000);
 
 -- --------------------------------------------------------
 
@@ -170,7 +178,9 @@ INSERT INTO `tbl_khachhang` (`maKhachHang`, `tenDangNhap`, `matKhau`, `hoTenKhac
 (23, 'phu123', 'e10adc3949ba59abbe56e057f20f883e', 'Thiên Phú', 'phu@gmail.com', 'Active', '2023-05-04'),
 (24, 'huy123', 'e10adc3949ba59abbe56e057f20f883e', 'Đức Huy', 'huy@gmail.com', 'Active', '2023-05-04'),
 (25, 'ducnam3', 'e10adc3949ba59abbe56e057f20f883e', 'Lê Đức Nam', 'leducnam22508@gmail.com', 'Active', '2003-08-25'),
-(26, 'nhancktv123', 'e10adc3949ba59abbe56e057f20f883e', 'Lê Trọng Nhân', 'letrongnhan@gmail.com', 'Active', '2003-02-27');
+(26, 'nhancktv123', 'e10adc3949ba59abbe56e057f20f883e', 'Lê Trọng Nhân', 'letrongnhan@gmail.com', 'Active', '2003-02-27'),
+(28, 'Vwuong', 'a08149bfa4f2b061d9d8c1b14b5342f5', 'Vwuong', 'ThanhVuong@gmail.com', 'Active', '2015-08-24'),
+(29, '123456', 'e10adc3949ba59abbe56e057f20f883e', '123456', '123456@gmail.com', 'Active', '2016-12-24');
 
 -- --------------------------------------------------------
 
@@ -213,6 +223,7 @@ CREATE TABLE `tbl_quantri` (
 
 INSERT INTO `tbl_quantri` (`tenDangNhap`, `matKhau`, `tenNguoiQuanTri`, `thuDienTuQT`, `trangThai`, `maVaiTro`) VALUES
 ('admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', 'admin@gmail.com', 'Active', 1),
+('NamNam', '4f6cf7d3a8f4786ae02237fbaeb5fe57', 'Nam', 'Nam@gmail.com', 'Active', 2),
 ('Vuong', '2d2c09b0f1a0edbdf3f6b8512e78eb23', 'Admin', 'Vuong@gmail.com', 'Active', 1);
 
 -- --------------------------------------------------------
@@ -238,9 +249,9 @@ CREATE TABLE `tbl_sanpham` (
 --
 
 INSERT INTO `tbl_sanpham` (`maSanPham`, `maLoai`, `tenSanPham`, `sizeSanPham`, `soLuongSanPham`, `mieuTaSanPham`, `giaSanPham`, `trangThaiSanPham`, `hinhAnhSanPham`) VALUES
-(0, 1, 'Dép nam MWC NADE- 7797 Dép Nam Quai Ngang Phối Chữ Phản Quang', '41', '100', 'Dép được thiết kế với quai ngang là cao su dẻo ,in chữ phản quang thời trang và năng động.', '175000', '1', '1684035255.jpg'),
+(0, 1, 'Dép nam MWC NADE- 7797 Dép Nam Quai Ngang Phối Chữ Phản Quang', '41', '98', 'Dép được thiết kế với quai ngang là cao su dẻo ,in chữ phản quang thời trang và năng động.', '175000', '1', '1684035255.jpg'),
 (1, 2, 'Dép nam MWC - 7766 Dép Kẹp Nam', '38', '120', 'Dép thiết kế đơn giản với quai kẹp ôm chân,được sản xuất trên thiết bị và kỹ thuật công nghệ cao quai dập vân nổi cách điệu.', '150000', '1', '1684034795.jpg'),
-(2, 2, 'Dép nam MWC - 7567 Dép Kẹp Nam Đế Đúc Nguyên Khối', '40', '94', 'Dép thiết kế đơn giản với quai kẹp ôm chân,được sản xuất trên thiết bị và kỹ thuật công nghệ cao kiểu dáng basic..\r\n\r\nDép sử dụng chất liệu cao cấp tạo cảm giác thoải mái cho bạn trong suốt quá trình vận động.', '179000', '1', '1684033248.jpg'),
+(2, 2, 'Dép nam MWC - 7567 Dép Kẹp Nam Đế Đúc Nguyên Khối', '40', '87', 'Dép thiết kế đơn giản với quai kẹp ôm chân,được sản xuất trên thiết bị và kỹ thuật công nghệ cao kiểu dáng basic..\r\n\r\nDép sử dụng chất liệu cao cấp tạo cảm giác thoải mái cho bạn trong suốt quá trình vận động.', '179000', '1', '1684033248.jpg'),
 (3, 1, 'Dép nam MWC - 7788 Dép Nam Quai Ngang', '40', '92', 'Dép được thiết kế với quai ngang in họa tiết cách điệu phối nút nổi bật ,trẻ trung, cá tính\r\n\r\nDép được sử dụng chất liệu cao cấp chắc chắn, bền & nhẹ tạo cảm giác thoải mái cho bạn trong suốt quá trình vận động.', '195000', '1', '1684033693.jpg'),
 (4, 1, 'Dép nam MWC - 7706 Dép Da Nam, Dép Quai Ngang Nam', '41', '99', 'Dép nam phối màu thể thao có kiểu dáng quai ngang cá tính\r\n\r\nDép làm từ chất liệu chắc chắn, bền & nhẹ tạo cảm giác thoải mái cho bạn trong suốt quá trình vận động.', '150000', '1', '1684033800.jpg'),
 (5, 2, 'Dép nam MWC - 7600 Dép Kẹp Nam Đế Đúc Nguyên Khối ', '42', '94', 'Dép thiết kế đơn giản với quai kẹp ôm chân,được sản xuất trên thiết bị và kỹ thuật công nghệ cao,kiểu dáng basic, phối sọc thể thao thời trang.\r\n\r\nDép có độ dày quai vừa phải, chất liệu da PU cao cấp giúp đôi dép chắc chắn hơn,đế làm từ cao su đi rất êm chân,cực kỳ chắc chắn', '175000', '1', '1684033843.jpg'),
@@ -331,7 +342,11 @@ INSERT INTO `tbl_thongtingiaohang1` (`IDTTGH`, `maKhachHang`, `tenNguoiNhan`, `s
 (96, 26, '', 0, '', 'ebra8g4nk2imoaquhn86u37e3q', ''),
 (97, 26, '', 0, '', 'ebra8g4nk2imoaquhn86u37e3q', ''),
 (98, 26, '', 0, '', 'ebra8g4nk2imoaquhn86u37e3q', ''),
-(99, 26, 'Nhân', 359107774, '', 'ebra8g4nk2imoaquhn86u37e3q', 'trên trời ');
+(99, 26, 'Nhân', 359107774, '', 'ebra8g4nk2imoaquhn86u37e3q', 'trên trời '),
+(100, 28, '123', 2147483647, '231`31131313213213', 'of2m4cgd1qii9r589big3dert6', '123'),
+(101, 29, '123', 2147483647, '321321321', 'of2m4cgd1qii9r589big3dert6', '123'),
+(102, 29, '3213213', 3213213, '32132132132', 'of2m4cgd1qii9r589big3dert6', '23213213'),
+(103, 29, '312321321', 321321321, '321321321', 'of2m4cgd1qii9r589big3dert6', '1231321321');
 
 -- --------------------------------------------------------
 
@@ -437,13 +452,13 @@ ALTER TABLE `tbl_vaitro`
 -- AUTO_INCREMENT for table `tbl_chitietdonhang`
 --
 ALTER TABLE `tbl_chitietdonhang`
-  MODIFY `IDCTDH` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=105;
+  MODIFY `IDCTDH` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=108;
 
 --
 -- AUTO_INCREMENT for table `tbl_chitiethoadon`
 --
 ALTER TABLE `tbl_chitiethoadon`
-  MODIFY `idHD` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
+  MODIFY `idHD` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=79;
 
 --
 -- AUTO_INCREMENT for table `tbl_donhang`
@@ -455,19 +470,19 @@ ALTER TABLE `tbl_donhang`
 -- AUTO_INCREMENT for table `tbl_giohang`
 --
 ALTER TABLE `tbl_giohang`
-  MODIFY `id_giohang` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=379;
+  MODIFY `id_giohang` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=459;
 
 --
 -- AUTO_INCREMENT for table `tbl_hoadon`
 --
 ALTER TABLE `tbl_hoadon`
-  MODIFY `maHoaDon` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
+  MODIFY `maHoaDon` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
 
 --
 -- AUTO_INCREMENT for table `tbl_khachhang`
 --
 ALTER TABLE `tbl_khachhang`
-  MODIFY `maKhachHang` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `maKhachHang` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT for table `tbl_loaisanpham`
@@ -485,7 +500,7 @@ ALTER TABLE `tbl_sanpham`
 -- AUTO_INCREMENT for table `tbl_thongtingiaohang1`
 --
 ALTER TABLE `tbl_thongtingiaohang1`
-  MODIFY `IDTTGH` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=100;
+  MODIFY `IDTTGH` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=104;
 
 --
 -- AUTO_INCREMENT for table `tbl_vaitro`
