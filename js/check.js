@@ -43,12 +43,12 @@ function validateform() {
         return false;
     }
     if (password == "") {
-        alert("Password không được để trống");
+        alert("Mật khẩu không được để trống");
         return false;
     }
     if (password != "") {
         if (password.length < 4) {
-            alert("Password phải từ 5 kí tự");
+            alert("Mật khẩu phải từ 5 kí tự");
             return false;
         }
     }
@@ -70,7 +70,7 @@ function validate() {
     }
 
     if (loginpassword == "") {
-        alert("Password không được để trống");
+        alert("Mật khẩu không được để trống");
         return false;
     }
 }

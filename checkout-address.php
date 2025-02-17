@@ -110,11 +110,11 @@ new WOW().init();
 
 <script>
 function validateAdress() {
-    var diachinh = document.getElementById('diachinh').value;
+    var diachi = document.getElementById('diachi').value;
     var firstname = document.getElementById('firstname').value;
     var phone = document.getElementById('phone').value;
 
-    if (diachinh === "" || firstname === "" || phone === "") {
+    if (diachi === "" || firstname === "" || phone === "") {
         alert("Vui lòng điền đầy đủ thông tin địa chỉ giao hàng.");
         return false;
     }
